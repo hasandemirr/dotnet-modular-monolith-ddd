@@ -34,6 +34,7 @@ are never resolved by you: stop and ask.
 - Source domain modules (HR, Inventory, Mining, NegvaScholarships) and everything that
   depends on them are not transferred.
 - End every step with the transfer report defined in `docs/migration/PLAN.md`.
+- After every step, `git -C ../source-reference status --short` prints nothing.
 
 ## Solution topology and dependency rules
 
@@ -219,8 +220,10 @@ characters in comments; replace them with ASCII.
 
 ```
 <type>(<scope>): <Subject in imperative mood>
+
 - <Technical detail>
 - <Technical detail>
+
 Branch: main
 ```
 

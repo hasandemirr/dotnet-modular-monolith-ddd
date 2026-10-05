@@ -19,7 +19,9 @@ Temporary document. It is deleted in Step 12.
    `SeedData`.
 4. Create this GitHub repository as private (D-011).
 5. Start Claude Code in this repository and add the extracted copy as an additional
-   working directory. Deny edits to that directory in the Claude Code settings.
+   working directory. Make the extracted copy a local git repository with one baseline
+   commit (`git add -A --force`), so any change shows in
+   `git -C ../source-reference status`.
 6. Upload `CLAUDE.md`, `docs/decisions.md`, this plan and
    `repomix-source-reference.xml` to the chat project.
 
