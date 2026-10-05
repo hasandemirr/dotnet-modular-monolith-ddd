@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ModularMonolith.Infrastructure\ModularMonolith.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\ModularMonolith.Contracts\ModularMonolith.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

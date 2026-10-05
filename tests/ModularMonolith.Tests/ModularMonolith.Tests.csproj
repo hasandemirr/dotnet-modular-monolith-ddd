@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="AwesomeAssertions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ModularMonolith.Application.Abstractions\ModularMonolith.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Modules\ModularMonolith.Modules.Approval\ModularMonolith.Modules.Approval.csproj" />
+    <ProjectReference Include="..\..\src\Modules\ModularMonolith.Modules.Auth\ModularMonolith.Modules.Auth.csproj" />
+  </ItemGroup>
+
+</Project>

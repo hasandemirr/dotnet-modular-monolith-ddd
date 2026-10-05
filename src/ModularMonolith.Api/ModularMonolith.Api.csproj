@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\ModularMonolith.Modules.Approval\ModularMonolith.Modules.Approval.csproj" />
+    <ProjectReference Include="..\Modules\ModularMonolith.Modules.Auth\ModularMonolith.Modules.Auth.csproj" />
+    <ProjectReference Include="..\Modules\ModularMonolith.Modules.Users\ModularMonolith.Modules.Users.csproj" />
+    <ProjectReference Include="..\ModularMonolith.Contracts\ModularMonolith.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
